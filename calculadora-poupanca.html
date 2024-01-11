@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Poupança</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="calculadora-poupanca.html">Calculadora de Poupança</a></li>
+                <li><a href="arte-e-economia.html">Arte & Economia</a></li>
+            </ul>
+        </nav>
+        <h1>Calculadora de Poupança</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Simulador de Economia para Brinquedos</h2>
+            <label for="mesada">Quanto você recebe de mesada por mês?</label>
+            <input type="number" id="mesada" placeholder="Insira o valor da mesada">
+
+            <label for="custoBrinquedo">Quanto custa o brinquedo desejado?</label>
+            <input type="number" id="custoBrinquedo" placeholder="Insira o valor do brinquedo">
+
+            <button onclick="calcularPoupanca()">Calcular</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto Educação Financeira<br>
+        Ricardo Ciotto Sanches Pereira Ru: 4493226
+    </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
